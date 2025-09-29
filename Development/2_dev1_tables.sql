@@ -1,4 +1,3 @@
-```sql
 -- ===============================================
 -- TABLA: deliveries
 -- ===============================================
@@ -67,4 +66,3 @@ CREATE TABLE delivery_routes (
     CONSTRAINT fk_delivery_routes_routes
         FOREIGN KEY (routes_id) REFERENCES routes(id)
 );
-```
