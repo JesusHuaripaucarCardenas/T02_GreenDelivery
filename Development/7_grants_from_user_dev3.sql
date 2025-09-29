@@ -1,0 +1,11 @@
+-------------------------------------------------
+-- PERMISOS DE DEVELOPER_03 A DEVELOPER_01
+-------------------------------------------------
+GRANT SELECT ANY TABLE ON SCHEMA DEVELOPER_03 TO DEVELOPER_01;
+GRANT INSERT ANY TABLE ON SCHEMA DEVELOPER_03 TO DEVELOPER_01;
+
+-------------------------------------------------
+-- PERMISOS DE DEVELOPER_03 A DEVELOPER_02
+-------------------------------------------------
+GRANT SELECT ANY TABLE ON SCHEMA DEVELOPER_03 TO DEVELOPER_02;
+GRANT INSERT ANY TABLE ON SCHEMA DEVELOPER_03 TO DEVELOPER_02;
